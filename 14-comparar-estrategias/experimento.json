@@ -1,0 +1,280 @@
+{
+ "dados": {
+  "arquivo": "../dados/loja/pedidos_export_completo.csv",
+  "sha256": "77a72e1c0cc9ab1c6a7487d766e4f5bffbb4fa817b36249dde23e963bef6a6f7"
+ },
+ "parametros": {
+  "treino": "2026-01-01 a 2026-03-31",
+  "validacao": "2026-04-01 a 2026-05-31",
+  "teste": "junho de 2026, fora",
+  "ligacao": 5,
+  "cancelamento": 15,
+  "corte": "empate, 5/15, na nota corrigida para a proporção do treino",
+  "teto": 0.25,
+  "vizinhos_smote": 5,
+  "sorteio": 14,
+  "sorteios": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "estrategias": [
+   "nenhuma",
+   "peso de classe",
+   "subamostragem",
+   "sobreamostragem",
+   "SMOTE"
+  ]
+ },
+ "versoes": {
+  "python": "3.9.6",
+  "pandas": "2.3.3",
+  "numpy": "2.0.2"
+ },
+ "resultados": {
+  "um_sorteio": {
+   "nenhuma": {
+    "linhas": 1155,
+    "cancelados_vistos": 19.8,
+    "acerto_par": 74.5,
+    "nota_media": 18.6,
+    "nota_como_sai": {
+     "ligacoes": 130,
+     "custo": 2105
+    },
+    "nota_corrigida": {
+     "ligacoes": 130,
+     "vp": 66,
+     "precisao": 50.8,
+     "revocacao": 40.5,
+     "custo": 2105
+    }
+   },
+   "peso de classe": {
+    "linhas": 1155,
+    "cancelados_vistos": 50.0,
+    "acerto_par": 74.2,
+    "nota_media": 40.8,
+    "nota_como_sai": {
+     "ligacoes": 451,
+     "custo": 2690
+    },
+    "nota_corrigida": {
+     "ligacoes": 120,
+     "vp": 62,
+     "precisao": 51.7,
+     "revocacao": 38.0,
+     "custo": 2115
+    }
+   },
+   "subamostragem": {
+    "linhas": 458,
+    "cancelados_vistos": 50.0,
+    "acerto_par": 73.3,
+    "nota_media": 41.0,
+    "nota_como_sai": {
+     "ligacoes": 473,
+     "custo": 2800
+    },
+    "nota_corrigida": {
+     "ligacoes": 107,
+     "vp": 57,
+     "precisao": 53.3,
+     "revocacao": 35.0,
+     "custo": 2125
+    }
+   },
+   "sobreamostragem": {
+    "linhas": 1852,
+    "cancelados_vistos": 50.0,
+    "acerto_par": 73.9,
+    "nota_media": 39.9,
+    "nota_como_sai": {
+     "ligacoes": 437,
+     "custo": 2680
+    },
+    "nota_corrigida": {
+     "ligacoes": 133,
+     "vp": 68,
+     "precisao": 51.1,
+     "revocacao": 41.7,
+     "custo": 2090
+    }
+   },
+   "SMOTE": {
+    "linhas": 1852,
+    "cancelados_vistos": 50.0,
+    "acerto_par": 73.4,
+    "nota_media": 39.4,
+    "nota_como_sai": {
+     "ligacoes": 428,
+     "custo": 2650
+    },
+    "nota_corrigida": {
+     "ligacoes": 135,
+     "vp": 66,
+     "precisao": 48.9,
+     "revocacao": 40.5,
+     "custo": 2130
+    }
+   }
+  },
+  "vinte_sorteios": {
+   "subamostragem": {
+    "custo": [
+     2110,
+     2115,
+     2140,
+     2150,
+     2125,
+     2175,
+     2210,
+     2160,
+     2115,
+     2135,
+     2145,
+     2200,
+     2125,
+     2165,
+     2125,
+     2130,
+     2115,
+     2125,
+     2165,
+     2165
+    ],
+    "acerto_par": [
+     74.3,
+     73.0,
+     73.1,
+     73.1,
+     74.2,
+     73.9,
+     73.6,
+     74.4,
+     73.4,
+     73.1,
+     74.1,
+     73.1,
+     74.2,
+     74.9,
+     73.3,
+     73.8,
+     74.2,
+     73.8,
+     73.3,
+     73.8
+    ]
+   },
+   "sobreamostragem": {
+    "custo": [
+     2070,
+     2080,
+     2095,
+     2105,
+     2090,
+     2125,
+     2120,
+     2100,
+     2080,
+     2125,
+     2155,
+     2140,
+     2115,
+     2080,
+     2090,
+     2110,
+     2110,
+     2125,
+     2110,
+     2100
+    ],
+    "acerto_par": [
+     74.3,
+     74.2,
+     74.2,
+     74.2,
+     74.4,
+     74.1,
+     74.0,
+     74.1,
+     74.0,
+     74.2,
+     74.1,
+     74.3,
+     74.1,
+     73.7,
+     73.9,
+     74.9,
+     74.1,
+     74.2,
+     74.7,
+     73.9
+    ]
+   },
+   "SMOTE": {
+    "custo": [
+     2110,
+     2110,
+     2095,
+     2115,
+     2120,
+     2095,
+     2100,
+     2090,
+     2070,
+     2130,
+     2145,
+     2125,
+     2115,
+     2125,
+     2130,
+     2110,
+     2120,
+     2120,
+     2085,
+     2120
+    ],
+    "acerto_par": [
+     74.2,
+     73.7,
+     74.3,
+     74.0,
+     74.3,
+     74.1,
+     74.0,
+     73.9,
+     73.7,
+     74.1,
+     73.8,
+     73.8,
+     73.9,
+     73.6,
+     73.4,
+     74.6,
+     73.9,
+     74.0,
+     74.6,
+     73.8
+    ]
+   }
+  }
+ }
+}

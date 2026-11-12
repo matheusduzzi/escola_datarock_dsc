@@ -1,0 +1,15 @@
+{
+ "modelo": "lista do acompanhamento no primeiro mês",
+ "escrito_em": "2026-07-03",
+ "de_onde_vem": "briefing do acompanhamento assinado pela Marta; corte do empate da aula 11; sem estratégia de desbalanceamento, aula 14",
+ "precos": {"acompanhamento": 240, "saida": 3000, "efeito": 0.25},
+ "classificador": "o da aula 10 no fim do pipeline da aula 09, ajustado nas pessoas admitidas até 30/06/2025",
+ "corte": "empate",
+ "teste": "pessoas admitidas de 1º de outubro de 2025 a 1º de janeiro de 2026",
+ "regua": {
+  "precisao_minima": 0.40,
+  "revocacao_minima": 0.25,
+  "saldo_maior_que": 0,
+  "vagas_mes": 12
+ }
+}

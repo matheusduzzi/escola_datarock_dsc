@@ -1,0 +1,15 @@
+{
+ "modelo": "lista de ligações do cancelamento",
+ "escrito_em": "2026-07-03",
+ "de_onde_vem": "régua do briefing da aula 01; corte do empate da aula 11; sem estratégia de desbalanceamento, aula 14",
+ "precos": {"ligacao": 5, "cancelamento": 15},
+ "classificador": "o da aula 10, com a preparação corrigida, ajustado nos pedidos de janeiro a março de 2026",
+ "corte": "empate",
+ "teste": "pedidos de junho de 2026",
+ "regua": {
+  "precisao_minima": 0.40,
+  "revocacao_minima": 0.40,
+  "custo_menor_que": "boleto",
+  "teto_ligacoes": 0.25
+ }
+}
