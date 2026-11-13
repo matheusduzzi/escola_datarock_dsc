@@ -59,7 +59,9 @@ A licença de uso e redistribuição do kit ainda vai ser definida pela Escola D
 | Pasta | Aula |
 |---|---|
 | [00-apresentacao/](00-apresentacao/) | Apresentação |
+| [01-a-pergunta-do-modelo/](01-a-pergunta-do-modelo/) | A pergunta do modelo |
 | [02-tipos-de-aprendizado/](02-tipos-de-aprendizado/) | Tipos de aprendizado |
+| [03-alvo-e-horizonte-da-previsao/](03-alvo-e-horizonte-da-previsao/) | Target, horizonte e unidade |
 | [04-validacao-conforme-o-uso/](04-validacao-conforme-o-uso/) | Validação conforme o uso |
 | [05-treino-validacao-e-teste/](05-treino-validacao-e-teste/) | Treino, validação e teste |
 | [06-valores-vazios-e-extremos/](06-valores-vazios-e-extremos/) | Ausências e extremos |
