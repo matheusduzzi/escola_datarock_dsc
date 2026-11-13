@@ -66,7 +66,9 @@ A licença de uso e redistribuição do kit ainda vai ser definida pela Escola D
 | [05-treino-validacao-e-teste/](05-treino-validacao-e-teste/) | Treino, validação e teste |
 | [06-valores-vazios-e-extremos/](06-valores-vazios-e-extremos/) | Ausências e extremos |
 | [07-scaling-e-distancias/](07-scaling-e-distancias/) | Scaling e distâncias |
+| [08-encoding-de-categorias/](08-encoding-de-categorias/) | Encoding de categorias |
 | [09-pipeline-para-dados-de-pessoas/](09-pipeline-para-dados-de-pessoas/) | Pipeline de people analytics fictício |
+| [10-detectar-vazamento/](10-detectar-vazamento/) | Detectar vazamento |
 | [11-baseline-e-metricas/](11-baseline-e-metricas/) | Baseline e métricas |
 | [12-curvas-de-aprendizado/](12-curvas-de-aprendizado/) | Curvas de aprendizado |
 | [13-desbalanceamento-e-prevalencia/](13-desbalanceamento-e-prevalencia/) | Desbalanceamento e prevalência |
